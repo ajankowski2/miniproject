@@ -21,4 +21,4 @@ project <-dplyr::select(sleuth_significant, target_id, test_stat, pval, qval)
 head(project, n=10)
 
 #write project data to file
-write.table(project, file="fdr05_results.txt",quote = FALSE,row.names = TRUE)
+write.table(project, file="R_results.txt",quote = FALSE,row.names = TRUE)
